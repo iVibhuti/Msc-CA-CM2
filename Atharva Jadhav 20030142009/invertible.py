@@ -53,6 +53,12 @@ def getInputFromFile(filename):
         valueList.append(value[:])
     return valueList
 
+# A function that takes matrix as input and returns its determinant
+def callFunctions(inputMatrix):
+    matrixOfMinor = getMatrixOfMinor(inputMatrix)
+    determinant = calculateDeterminant(inputMatrix, matrixOfMinor)
+    return determinant
+
 #instructions
 inputFromFile = getInputFromFile("input.txt")
 print("MATRIX IN input.txt")
