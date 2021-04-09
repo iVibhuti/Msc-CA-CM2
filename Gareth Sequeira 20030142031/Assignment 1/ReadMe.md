@@ -34,7 +34,7 @@ Input.txt file follows a comma seperated structure.
 Each line represents row in the matrix.  
 Each line has 3 values seperated by comma which represents columns.  
   
-*Note: This program works with the input of n*n matrix (n rows & n colmuns).*  
+*Note: This program works with the input of nXn matrix (n rows & n colmuns).*  
   
   
 ### 🔹Output  
