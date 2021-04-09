@@ -1,7 +1,7 @@
 # a given matrix is a singular matrix or not in Python.
 #  A matrix is said to be a singular matrix if its determinant is equal to zero.
 
-#Tis function for to get cofactor of matrix[i][j].
+#This function for to get cofactor of matrix[i][j].
 def cofactor(matrix, i, j):
     return [row[: j] + row[j+1:] for row in (matrix[: i] + matrix[i+1:])]
 
