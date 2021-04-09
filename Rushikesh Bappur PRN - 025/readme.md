@@ -9,9 +9,8 @@ Output File
 The program takes in a input and calculates the determinant of the given matrix. Based on the determinant it finds whether the given input is singular or non-singular.
 Input to the program is given in input.txt but if user wishes to provide their own matrix they can edit the input.txt file.
 
-#Requirements
-Python3
-To install python visit this link: (https://www.python.org/).
+Pre-Requisites
+Please ensure python 3+ version is available on your system.
 
 #Setup
 Download and place the files in a directory.
