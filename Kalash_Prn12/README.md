@@ -69,5 +69,5 @@ Here we will see the output of the executed unit test cases
 ![Output image of fail test cases](https://github.com/iVibhuti/Msc-CA-CM2/blob/64e12ab3da590392269b23f5fee2ddce181a8ece/Kalash_Prn12/screenshots/Fail.png)
 
 ***
-## END of readme file
+## END of README file
 ***
