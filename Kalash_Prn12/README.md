@@ -22,7 +22,6 @@ Unit testing:
 -In python **unittest.TestCase** is used to create test cases by sub classing it
 ***
 ### Requirements
-***
 Requirements For running this program
 ***
 Required specifications and software: 
@@ -30,7 +29,6 @@ Required specifications and software:
 - **1mb** or above of storage space
 ***
 ### Setup
-***
 Setup the files before proceeding
 ***
 Setup instructions:
@@ -38,7 +36,6 @@ Setup instructions:
 - Open the command line and ensure **python** is working by executing `python --version` on the command line and check if appropriate python version is installed
 ***
 ### Execution
-***
 Here we see how to execute the code and different test cases
 ***
 Execution instructions:
@@ -57,7 +54,6 @@ Execution instructions:
     - `python -m unittest -v test_singularity.py`: This command can be used for executing the test cases with or without including main in the code and outputs more detailed information on the test cases that have been executed and their result on the terminal
 ***
 ### Output
-***
 Here we will see the output of the executed unit test cases
 ***
 - Two possibilities for output are "OK" and "FAIL":
