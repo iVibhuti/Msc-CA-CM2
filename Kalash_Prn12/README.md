@@ -25,7 +25,7 @@ Unit testing:
 Requirements For running this program
 ***
 Required specifications and software: 
-- Python version **2.1** or above
+- Python version **3** or above as the code is using python3 syntax and unittest was first introduced in python version 2.1
 - **1mb** or above of storage space
 ***
 ### Setup
