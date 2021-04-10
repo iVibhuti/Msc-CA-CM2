@@ -35,8 +35,8 @@ Required specifications and software:
 Setup the files before proceeding
 ***
 Setup instructions:
-- [] Save the files in a folder location of your choice and make sure files are placed in **same folder**
-- [] Open the command line and ensure **python** is working by executing `python --version` on the command line and check if appropriate python version is installed
+- Save the files in a folder location of your choice and make sure files are placed in **same folder**
+- Open the command line and ensure **python** is working by executing `python --version` on the command line and check if appropriate python version is installed
 
 ### Execution
 ***
@@ -78,4 +78,3 @@ Here we will see the output of the executed unit test cases
 ***
 ## END of readme file
 ***
-
