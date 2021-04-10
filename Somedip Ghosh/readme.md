@@ -16,3 +16,6 @@ What happens if a test fails? To make this happen, we refer to a string variable
 ### Outcomes Possible :
 There are three types of possible test outcomes :
 OK – This means that all the tests are passed. FAIL – This means that the test did not pass and an AssertionError exception is raised. ERROR – This means that the test raises an exception other than AssertionError
+### if name == 'main':
+unittest.main()    
+allows us to run all the tests just by executing the file.
