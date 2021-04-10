@@ -20,7 +20,7 @@ Unit testing:
 -A unit test can have **multiple test cases** to check different aspects of a code
 -The purpose of unit testing is to iron out **exceptional cases** and get **desired output** from the code
 -In python **unittest.TestCase** is used to create test cases by sub classing it
-
+***
 ### Requirements
 ***
 Requirements For running this program
@@ -28,7 +28,7 @@ Requirements For running this program
 Required specifications and software: 
 - Python version **2.1** or above
 - **1mb** or above of storage space
-
+***
 ### Setup
 ***
 Setup the files before proceeding
@@ -36,7 +36,7 @@ Setup the files before proceeding
 Setup instructions:
 - Save the files in a folder location of your choice and make sure files are placed in **same folder**
 - Open the command line and ensure **python** is working by executing `python --version` on the command line and check if appropriate python version is installed
-
+***
 ### Execution
 ***
 Here we see how to execute the code and different test cases
@@ -55,7 +55,7 @@ Execution instructions:
         unittest.main() 
     ``` 
     - `python -m unittest -v test_singularity.py`: This command can be used for executing the test cases with or without including main in the code and outputs more detailed information on the test cases that have been executed and their result on the terminal
-
+***
 ### Output
 ***
 Here we will see the output of the executed unit test cases
@@ -71,8 +71,6 @@ Here we will see the output of the executed unit test cases
 
 - Output image where `test_fail` cases are executed
 ![Output image of fail test cases](https://github.com/iVibhuti/Msc-CA-CM2/blob/64e12ab3da590392269b23f5fee2ddce181a8ece/Kalash_Prn12/screenshots/Fail.png)
-
-
 
 ***
 ## END of readme file
