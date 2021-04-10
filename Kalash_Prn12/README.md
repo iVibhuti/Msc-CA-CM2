@@ -9,11 +9,10 @@ Readme file for a test program for checking **Matrix singularity** using **unitt
 3. [Setup](#Setup)
 4. [Execution](#Execution)
 5. [Output](#Output)
-
+***
 ### General-Info
-***
 This program is to check test cases for checking **Matrix Singularity** using **unittest** in **Python**.
-***
+----
 Unit testing:
 -It is one of the first stages in **Software testing** before the whole software is tested
 -It is used for testing **individual units** and **components** of a software program or code
