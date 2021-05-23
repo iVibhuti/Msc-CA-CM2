@@ -24,13 +24,13 @@ Input to the program is given in Input.txt but if user wishes to provide their o
   
 ### 🔹Requirements  
   
-Python3  
+#### Python3  
 To install python visit this link: (https://www.python.org/).  
   
-NumPy Library  
+#### NumPy Library  
 pip install numpy  
   
-Math Library
+#### Math Library  
 pip install python-math  
   
   
