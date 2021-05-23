@@ -8,5 +8,5 @@
 * make sure you have these modules/python libraries
 	* numpy
 	* math
-	* this may not work for matrices of all dimensions
-	* matrices with complex eigen values create problem with this program
+* this may not work for matrices of all dimensions
+* matrices with complex eigen values create problem with this program
