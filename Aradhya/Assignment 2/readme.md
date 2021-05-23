@@ -3,7 +3,6 @@ Table of contents
 1. General info
 2. Requirements
 3. Setup
-4. Input file
 
 
 General info - 
