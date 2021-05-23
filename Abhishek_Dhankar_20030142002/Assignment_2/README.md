@@ -5,7 +5,7 @@
 
 ## *How to run the code?*
 * use main.py to run
-* make sure you have these modules/python libraries
+* make sure you have these modules/python libraries installed
 	* numpy
 	* math
 * this may not work for matrices of all dimensions
