@@ -5,6 +5,7 @@ Table of contents
 3. How to setup
 4. Input file
 
+
 1. General info
 The program takes in an input and calculates the factors.
 
@@ -16,7 +17,7 @@ Make sure that you have python (version above 3) installed in the environment.
 3. How to setup
 Download and place the files in a directory. Ensure that input.txt and program.py are in same directory. 
 
-Input file
+4. Input file
 input.txt file is simply a comma separated structure. 
 Each line represents row in the matrix.
 Each line has 3 values separated by comma which represents columns.
