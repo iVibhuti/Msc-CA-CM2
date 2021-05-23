@@ -15,8 +15,3 @@ Make sure that you have python (version above 3) installed in the environment.
 
 Setup - 
 Download and place the files in a directory. Ensure that input.txt and SVD.py and all other files are in same directory. 
-
-Input file -
-input.txt file is simply a comma separated structure. 
-Each line represents row in the matrix.
-Each line has 3 values separated by comma which represents columns.
