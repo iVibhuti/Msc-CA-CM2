@@ -13,8 +13,10 @@ Readme file for a test program for checking **Matrix singularity** using **unitt
 ### General-Info
 This program is to calculate, display and check the **Factors of a Matrix** using **SVD Method** in **Python**.
 ***
-In linear algebra, the singular value decomposition (SVD) is a factorization of a real or complex matrix that generalizes the eigendecomposition, which only exists for square normal matrices, to any {\displaystyle m\times n}m\times n matrix via an extension of the polar decomposition.
-Specifically, the singular value decomposition of an {\displaystyle m\times n}m\times n complex matrix M is a factorization of the form {\displaystyle \mathbf {U\Sigma V^{*}} }{\displaystyle \mathbf {U\Sigma V^{*}} }, where U is an {\displaystyle m\times m}m\times m complex unitary matrix, {\displaystyle \mathbf {\Sigma } }\mathbf{\Sigma} is an {\displaystyle m\times n}m\times n rectangular diagonal matrix with non-negative real numbers on the diagonal, and V is an {\displaystyle n\times n}n\times n complex unitary matrix. If M is real, U and V can also be guaranteed to be real orthogonal matrices. In such contexts, the SVD is often denoted {\displaystyle \mathbf {U\Sigma V^{T}} }{\displaystyle \mathbf {U\Sigma V^{T}} }.
+In linear algebra, the singular value decomposition (SVD) is a factorization of a real or complex matrix that generalizes the eigen decomposition, which only exists for square normal matrices, to any m* n}m* n matrix via an extension of the polar decomposition.
+
+   Specifically, the singular value decomposition of an m* n}m* n complex matrix M is a factorization of the form UΣ V^{t}, where U is an m x m complex unitary matrix, Σ is an m x n rectangular diagonal matrix with non-negative real numbers on the diagonal, and V is an n x n complex unitary matrix. If M is real, U and V can also be guaranteed to be real orthogonal matrices. In such contexts, the SVD is often denoted UΣV^{T}.
+
 ***
 ### Requirements
 Requirements For running this program
