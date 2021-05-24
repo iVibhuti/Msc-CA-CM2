@@ -4,7 +4,7 @@
 1. [General info](#general-info)
 2. [Requirements](#requirements)
 3. [How to setup](#how-to-setup)
-4. [Input file structure](#input-file-structure)
+4. [Sample array/matrix structure](#sample-array-structure)
 
 ### General info
 ***
