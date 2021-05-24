@@ -51,7 +51,7 @@ Here we will see the output of the executed fucntion and see the different facto
 ***
 
 - Output or matrix [[ 5, 5],[ -1, 7]]
-![Output image of pass and fail test cases](https://github.com/iVibhuti/Msc-CA-CM2/blob/64e12ab3da590392269b23f5fee2ddce181a8ece/Kalash_Prn12/screenshots/PassFail.png)
+![Output image of pass and fail test cases](https://github.com/iVibhuti/Msc-CA-CM2/blob/main/Kalash_Prn12/Assignment2/screenshots/Screenshot%20(301).png)
 
 
 ***
