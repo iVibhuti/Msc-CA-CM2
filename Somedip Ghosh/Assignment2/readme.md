@@ -8,9 +8,9 @@ Compute The Factor Of The Array/Matrix
 Make sure you have Python installed into your system with any IDE that supports python.
 
 # Running the program:
-Make sure that both file: 1. SVD.py and MatrixInput.txt are in same folder.
+Make sure that both file: 1. SVD(2).py and input.txt are in same folder.
 
-## For Running the Code we have to install the below listed python libraries :-
+For Running the Code we have to install the below listed python libraries :-
 
 a) numpy - pip install numpy
 b) sympy - pip install sympy
