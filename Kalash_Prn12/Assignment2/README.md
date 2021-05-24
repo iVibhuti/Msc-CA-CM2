@@ -32,10 +32,10 @@ Setup instructions:
 - Open the command line and ensure **python** is working by executing `python --version` on the command line and check if appropriate python version is installed
 ***
 ### Execution
-Here we see how to execute the code and different test cases
+Here we see how to execute the code and get the factors of matrix using SVD
 ***
 Execution instructions:
-- In the file **input.txt** enter the matrix you wish to see the SVD factors for
+- In the file **input.txt** enter the matrix for which you wish to see the U,Σ,Vt factors
 - In the file **GetSvd.py** the class **getSvdFactors** is the function which gets the Factors
 - In this class two test cases are setup i.e **test_pass** and **test_fail**
 
