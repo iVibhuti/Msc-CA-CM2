@@ -22,7 +22,7 @@ Input to the program is given below the main method but if user wishes to provid
 > Download and place the files in a directory.
 > If user wishes to make changes to array/matrix given, you can change to your desired array/matrix below the main method.
 
-### Input file structure
+### Sample Array/Matrix structure
 ***
 > sample array/matrix is simply a comma seperated structure and can be replaced based on user's choice.
 > each line represents row in the matrix.
