@@ -6,6 +6,7 @@ Compute The Factor Of The Array/Matrix
 
 # Requirements:
 Make sure you have Python installed into your system with any IDE that supports python.
+(In my case Visual Studio has been used.)
 
 # Running the program:
 Make sure that both file: 1. SVD(2).py and input.txt are in same folder.
