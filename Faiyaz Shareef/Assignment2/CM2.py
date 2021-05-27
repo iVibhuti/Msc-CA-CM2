@@ -1,5 +1,4 @@
-#import numpy, sympy, cmath and math libraries of python
-#libraries subprocess and sys for automatic package installation
+
 import numpy as np
 from numpy.linalg import *
 import cmath
@@ -11,9 +10,7 @@ import sys
 def install(package):
     subprocess.check_call([sys.executable, "-m","pip","install", package])
 
-#function to get U matrix which is a x a(transpose)
-#getting the eigenvalues of the linear equation form from U matrix
-#getting the lamba values
+
 def getU(a,at):
     W=a*at
     s=shape(W)
@@ -22,16 +19,13 @@ def getU(a,at):
     #applying W-λI
     fa=W-I
 
-#get determinant of fa matrix to find singular values
+
     exp=fa.det()
     roots= solve(exp, dict=False)
 
     U=calculateEigenVector(fa,roots)
     return U
 
-#function to get V matrix which is a(transpose) x a
-#getting the eigenvalues of the linear equation form from V matrix
-#getting the lamba values
 def getV(a,at):
     sa=shape(a)
     W=at*a
@@ -53,7 +47,6 @@ def getV(a,at):
     V=calculateEigenVector(fa,roots)
     return V, mat
 
-#function to calculate the eigen vector of 
 def calculateEigenVector(mt,rt):
     l=len(rt)
 
@@ -74,7 +67,7 @@ def calculateEigenVector(mt,rt):
         M = M.col_insert(k, gmt/sqt)
     return M
 
-#function to get the factors of singular value decomposition
+
 def getFactorsOfSvd(a,at,n):
     mat = np.array(n)
     sa=shape(a)
@@ -104,10 +97,10 @@ def getFactorsOfSvd(a,at,n):
     Σ=dΣ
     return U,Σ,Vt
 
-#function to implement the svd formula into the input matrix
+
 def getSvd(mat):
 
-#defining lamda as unknown value
+
     var('λ')
     a=Matrix(mat)
     at=a.T
@@ -124,8 +117,7 @@ def getSvd(mat):
     svd_form = (U @ Σ @ VT)
     print(svd_form)
 
-#function that opens the input file in read mode
-# stores the matrix values in a list of list format
+
 def TakeInputFromFile(filename):
     with open(filename, "r") as data:
         values = data.readlines()
@@ -138,7 +130,7 @@ def TakeInputFromFile(filename):
     return valueList
 
 if __name__ == "__main__":
-   #take matrix input from MatrixInput.txt file
-   matrix = TakeInputFromFile("MatrixInput.txt") 
-   #function to print Factors
+ 
+   matrix = TakeInputFromFile("Input_File.txt") 
+  
    getSvd(matrix)
