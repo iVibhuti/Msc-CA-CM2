@@ -10,3 +10,4 @@
 	* math
 * this may not work for matrices of all dimensions
 * matrices with complex eigen values create problem with this program
+* You can change the input matrix using *input.txt* file
